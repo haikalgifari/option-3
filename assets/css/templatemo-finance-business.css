@@ -391,9 +391,10 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-  background-image: url(../images/slide_01.jpg);
+  background-image: url(../images/bg04.jpg);
 }
 
+/*
 .Modern-Slider .item-2 .img-fill {
   background-image: url(../images/slide_02.jpg);
 }
@@ -401,6 +402,7 @@ header .navbar {
 .Modern-Slider .item-3 .img-fill {
   background-image: url(../images/slide_03.jpg);
 }
+*/
 
 .Modern-Slider .NextArrow {
   position: absolute;
@@ -634,7 +636,7 @@ ul.slick-dots {
 
 .fun-facts {
   margin-top: 140px;
-  background-image: url(../images/fun-facts-bg.jpg);
+  background-image: url(../images/test2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -752,6 +754,7 @@ ul.slick-dots {
 
 .testimonials {
   margin-top: 140px;
+  background-image: url(../images/test2.jpg);
   background-color: #f7f7f7;
   padding: 140px 0px;
 }
