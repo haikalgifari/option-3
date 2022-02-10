@@ -403,6 +403,21 @@ header .navbar {
   background-image: url(../images/slide_03.jpg);
 }
 */
+/* Whatsapp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 14px;
+  transition: bottom 0.2s;
+  z-index: 999;
+}
+
+.whatsapp-button a img {
+  width: 76px;
+  height: 76px;
+  border-radius: 38px;
+}
 
 .Modern-Slider .NextArrow {
   position: absolute;
@@ -793,6 +808,26 @@ ul.slick-dots {
 .callback-services {
   border-top: 1px solid #eee;
   padding-top: 140px;
+}
+
+/* Contact */
+#contact {
+  margin-top: 80px;
+}
+#contact form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+#contact form label {
+  font-size: 18px;
+}
+#contact form label span {
+  color: red;
+}
+#contact form input {
+  height: 50px;
+  margin: 10px 0 20px 0;
 }
 
 .contact-us {
