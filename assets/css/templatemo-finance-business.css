@@ -812,7 +812,13 @@ ul.slick-dots {
 
 /* Contact */
 #contact {
-  margin-top: 80px;
+  background-color: #f7f7f7;
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+#contact .btn-primary {
+  background-color: #12a958 !important;
 }
 #contact form {
   margin-top: 30px;
