@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <title>Finance Business - Contact Page</title>
+    <title>PT. EKSPERTA PRIATNA TEKNOLOGI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -23,10 +23,6 @@
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <!--
-
-Finance Business TemplateMo
-
-https://templatemo.com/tm-545-finance-business
 
 -->
   </head>
@@ -49,10 +45,16 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
               <li>
-                <a href="#"><i class="fa fa-clock-o"></i>Mon-Fri 09:00-17:00</a>
+                <a href="#"
+                  ><i class="fa fa-clock-o"></i>Senin-Jumat 09:00-17:00</a
+                >
               </li>
               <li>
-                <a href="#"><i class="fa fa-phone"></i>090-080-0760</a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=6282297192377&text=Halo,%20saya%20tertarik%20dengan%20penawaran%20anda%20tentang%20konsultasi%20mengenai%20perijinan%20lingkungans.%20Saya%20ingin%20mengetahuinya%20lebih%20lanjut."
+                  target="_blank"
+                  ><i class="fa fa-phone"></i>0822-9719-2377</a
+                >
               </li>
             </ul>
           </div>
@@ -96,19 +98,22 @@ https://templatemo.com/tm-545-finance-business
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html"
-                  >Home
-                  <span class="sr-only">(current)</span>
-                </a>
+                <a class="nav-link" href="index.html">Home </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">Tentang Kami</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">Portfolio</a>
+                <a class="nav-link" href="services.html">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Hubungi Kami</a>
+                <a class="nav-link" href="contact.html"
+                  >Kontak Kami
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -135,22 +140,19 @@ https://templatemo.com/tm-545-finance-business
             <div class="contact-item">
               <i class="fa fa-phone"></i>
               <h4>Phone</h4>
-              <p>
-                Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec
-                cursus augue.
-              </p>
-              <a href="#">021-5569-9275</a>
+              <p>Hubungi kami melalui nomer di bawah ini</p>
+              <a
+                href="https://api.whatsapp.com/send?phone=6282297192377&text=Halo,%20saya%20tertarik%20dengan%20penawaran%20anda%20tentang%20konsultasi%20mengenai%20perijinan%20lingkungans.%20Saya%20ingin%20mengetahuinya%20lebih%20lanjut."
+                >0822-9719-2377</a
+              >
             </div>
           </div>
           <div class="col-md-4">
             <div class="contact-item">
               <i class="fa fa-envelope"></i>
               <h4>Email</h4>
-              <p>
-                Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec
-                cursus augue.
-              </p>
-              <a href="#">info@ekspris.co.id</a>
+              <p>Hubungi kami melalui email di bawah ini</p>
+              <a href="mailto:info@ekspris.co.id">info@ekspris.co.id</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -417,15 +419,7 @@ https://templatemo.com/tm-545-finance-business
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>
-              Copyright &copy; 2020 Financial Business Co., Ltd. - Design:
-              <a
-                rel="nofollow noopener"
-                href="https://templatemo.com"
-                target="_blank"
-                >TemplateMo</a
-              >
-            </p>
+            <p>Copyright &copy; 2021</p>
           </div>
         </div>
       </div>
@@ -456,35 +450,35 @@ https://templatemo.com/tm-545-finance-business
       }
     </script> -->
     <script>
-      bootstrapValidate("#nama", "required:Nama tidak boleh kosong")
+      bootstrapValidate("#nama", "required:Nama tidak boleh kosong");
       bootstrapValidate(
         "#nomorhp",
         "regex:^628[1-9][0-9][0-9][0-9][0-9][0-9][0-9]+$:Nomor Handphone tidak valid"
-      )
+      );
 
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbw8IsxaXmyACZzROyUQFGJ4fPRk8tgmDVxECUPtRKgaNuS6Jz9kqlwoCi3v1gQnmSNp/exec"
-      const form = document.forms["ekspris-contact-form"]
-      const btnKlik = document.querySelector(".btn-klik")
-      const btnLoading = document.querySelector(".btn-loading")
+        "https://script.google.com/macros/s/AKfycbw8IsxaXmyACZzROyUQFGJ4fPRk8tgmDVxECUPtRKgaNuS6Jz9kqlwoCi3v1gQnmSNp/exec";
+      const form = document.forms["ekspris-contact-form"];
+      const btnKlik = document.querySelector(".btn-klik");
+      const btnLoading = document.querySelector(".btn-loading");
 
       form.addEventListener("submit", (e) => {
-        btnKlik.classList.toggle("d-none")
-        btnLoading.classList.toggle("d-none")
-        e.preventDefault()
+        btnKlik.classList.toggle("d-none");
+        btnLoading.classList.toggle("d-none");
+        e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
             window.open(
               "https://api.whatsapp.com/send?phone=6288219734170&text=Halo,%20saya%20tertarik%20dengan%20penawaran%20anda%20tentang%20konsultasi%20mengenai%20perijinan%20lingkungans.%20Saya%20ingin%20mengetahuinya%20lebih%20lanjut.",
               "_blank"
-            )
-            btnKlik.classList.toggle("d-none")
-            btnLoading.classList.toggle("d-none")
-            console.log("Success!", response)
-            form.reset()
+            );
+            btnKlik.classList.toggle("d-none");
+            btnLoading.classList.toggle("d-none");
+            console.log("Success!", response);
+            form.reset();
           })
-          .catch((error) => console.error("Error!", error.message))
-      })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
   </body>
 </html>
